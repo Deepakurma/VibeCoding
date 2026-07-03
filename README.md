@@ -3,7 +3,7 @@
 Full-stack MERN assignment using React, Express, MongoDB, and JWT authentication.
 
 Default admin
-Email: admin@example.com
+Email: admin@example.com,
 password: admin123
 
 
