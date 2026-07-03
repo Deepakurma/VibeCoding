@@ -35,12 +35,12 @@ cp .env.example .env
 3. Set values in `.env`:
 
 ```bash
-MONGO_URI=mongodb://127.0.0.1:27017/restaurant_reservations
-JWT_SECRET=replace_with_a_long_random_secret
-CLIENT_URL=http://localhost:3000
-REACT_APP_API_URL=http://localhost:5000
-ADMIN_EMAIL=admin@example.com
-ADMIN_PASSWORD=admin123
+MONGO_URI=
+JWT_SECRET=
+CLIENT_URL=
+REACT_APP_API_URL=
+ADMIN_EMAIL=
+ADMIN_PASSWORD=
 ```
 
 Leave `PORT` unset for local `npm run dev`. The backend defaults to `5000`, and React defaults to `3000`. If both apps read the same `PORT` value, they can try to start on the same port.
